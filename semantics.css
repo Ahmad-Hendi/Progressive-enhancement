@@ -1,0 +1,121 @@
+
+*{
+    font-family: 'Peddana', serif
+}
+
+body{
+    width: 90%;
+    margin:0 auto;
+    background: linear-gradient(45deg, #d7d7d7, #e7e7, #23a6d5);
+    background-image: cross-fade(100px, 200px);
+    background-repeat: none;
+
+}
+
+header > h1 {
+    background-color: yellow;
+    max-width: 600px;
+}
+
+main {
+    padding-top:50px ;
+}
+
+img {
+    display: flex;
+    float: left;
+    margin-right: 30px;
+}
+
+
+article  q{
+    font-size: 160%;
+    display: block  ;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    
+    border-left: 3px;
+    border: 30px;
+    text-align: center;
+}
+
+ .farmer{
+    background-color: #d7d7d7;
+    
+}
+
+.neighbors {
+
+    background-color: #23a6d5;
+}
+
+p{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: rgb(7, 56, 99);
+    line-height: 18px;
+}
+
+main a{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+main a:hover{
+    text-decoration: none;
+    color:blueviolet;
+}
+
+q{
+    font-style: italic;
+}
+
+ul li {
+    list-style: none;
+    padding: 3px
+}
+
+footer a{
+    text-decoration: none;
+    color: crimson;
+}
+
+footer a:hover{
+    text-decoration: none;
+    color:blue;
+}
+
+.table{
+    color: black;
+}
+
+.good{
+    color: red;
+    text-transform: uppercase;
+}
+
+.bad {
+    text-transform: uppercase;
+    color: green;
+}
+
+
+
+.notification{
+    background:#FFFFDD;
+    padding:.5rem 1rem;
+    border:3px solid #DDDDCC;
+    width:250px;
+    font-weight:bold;
+    color: #333300;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+  }
+
+ tr:nth-child(odd) {
+     background-color: white;
+ } 
+ tr:nth-child(even) {
+     background-color: grey;
+ }
